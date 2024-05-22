@@ -1,0 +1,369 @@
+:root {
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor: hsl(187, 85%, 43%);
+    --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: ■rgb(240, 240, 246);
+    --cardBG: rgb(225, 225, 235);
+}
+
+.about {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #0e0e0e;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top 30%;
+
+    .BackgroundDiv {
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
+
+        .background {
+            margin-top: 5vh;
+            position: relative;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center top 30%;
+            width: 100%;
+        }
+    }
+
+    .aboutHolder {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        margin-top: 50px;
+
+        .ImageDiv {
+            flex: 0 0 50%;
+            padding-right: 1rem;
+            margin-top: 8.5vh;
+
+            .collage {
+                margin-left: 10vh;
+                width: 55%;
+                border-radius: 10px;
+                border: 5px solid #303030;
+            }
+        }
+
+        .introCard {
+            margin-right: 10vh;
+            margin-top: 8rem;
+            flex: 0 0 35%;
+            padding: 1rem;
+            border-radius: 1rem;
+            background: rgba(31, 34, 37, 0.7);
+            overflow: hidden;
+
+            .aboutParagraph {
+                font-size: 1rem;
+                color: var(--textColor);
+
+                .home-title {
+                    font-size: 2vw;
+                    margin-top: 2%;
+                    color: rgb(255, 255, 255);
+
+                    .outlined-text {
+                        -webkit-text-stroke: 0.1vw rgb(255, 255, 255);
+                        color: transparent;
+                    }
+                }
+
+                .home-text {
+                    line-height: 1.5;
+                    margin-top: 15px;
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+    }
+}
+
+// MEDIA QUERIES ============================================
+
+@media screen and (max-width: 500px) {
+    .about {
+        .aboutHolder {
+            display: block;
+
+            .ImageDiv {
+                flex: 0 0 0;
+                padding-right: 0rem;
+                margin-top: 5vh;
+
+                .collage {
+                    margin-left: 5vh;
+                    margin-top: 1rem;
+                    width: 80%;
+                }
+            }
+
+            .introCard {
+                margin-right: 0vh;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                flex: 0 0 0;
+
+                .aboutParagraph {
+                    font-size: 1rem;
+
+                    .home-title {
+                        font-size: 6vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 650px) {
+    .about {
+        .aboutHolder {
+            display: block;
+
+            .ImageDiv {
+                flex: 0 0 0;
+                padding-right: 0rem;
+                margin-top: 5vh;
+
+                .collage {
+                    margin-left: 5vh;
+                    margin-top: 1rem;
+                    width: 82%;
+                }
+            }
+
+            .introCard {
+                margin-right: 0vh;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                flex: 0 0 0;
+
+                .aboutParagraph {
+                    font-size: 1rem;
+
+                    .home-title {
+                        font-size: 6vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 810px) {
+    .about {
+        .aboutHolder {
+            display: block;
+
+            .ImageDiv {
+                flex: 0 0 0;
+                padding-right: 0rem;
+                margin-top: 5vh;
+
+                .collage {
+                    margin-left: 5vh;
+                    margin-top: 1rem;
+                    width: 85%;
+                }
+            }
+
+            .introCard {
+                margin-right: 0vh;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                flex: 0 0 0;
+
+                .aboutParagraph {
+                    font-size: 1rem;
+
+                    .home-title {
+                        font-size: 6vw;
+                    }
+
+                    .home-text {
+                        font-size: 2vh;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 811px) and (max-width: 1000px) {
+    .about {
+        .aboutHolder {
+            display: block;
+
+            .ImageDiv {
+                flex: 0 0 0;
+                padding-right: 0rem;
+                margin-top: 5vh;
+
+                .collage {
+                    margin-left: 6.5vh;
+                    margin-top: 1rem;
+                    width: 85%;
+                }
+            }
+
+            .introCard {
+                margin-right: 0vh;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                flex: 0 0 0;
+
+                .aboutParagraph {
+                    font-size: 1rem;
+
+                    .home-title {
+                        font-size: 6vw;
+                    }
+
+                    .home-text {
+                        font-size: 2vh;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1450px) {
+    .about {
+        .aboutHolder {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            align-self: stretch;
+            margin-top: 18vh;
+
+            .ImageDiv {
+                flex: 0 0 50%;
+                padding-right: 1rem;
+                margin-top: 0vh;
+
+                .collage {
+                    margin-left: 10vh;
+                    margin-top: 1rem;
+                    width: 80%;
+                }
+            }
+
+            .introCard {
+                margin-right: 10vh;
+                margin-top: 1rem;
+                flex: 0 0 50%;
+
+                .aboutParagraph {
+                    .home-title {
+                        font-size: 2.5vw;
+                    }
+
+                    .home-text {
+                        font-size: 2.5vh;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 1451px) and (max-width: 1800px) {
+    .about {
+        .aboutHolder {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            align-self: stretch;
+            margin-top: 10vh;
+
+            .ImageDiv {
+                flex: 0 0 50%;
+                padding-right: 1rem;
+                margin-top: 0vh;
+
+                .collage {
+                    margin-left: 10vh;
+                    margin-top: 1rem;
+                    width: 80%;
+                }
+            }
+
+            .introCard {
+                margin-right: 10vh;
+                margin-top: 0rem;
+                flex: 0 0 50%;
+
+                .aboutParagraph {
+                    .home-title {
+                        font-size: 2.5vw;
+                    }
+
+                    .home-text {
+                        font-size: 2vh;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 1801px) and (max-width: 2010px) {
+    .about {
+        .aboutHolder {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            align-self: stretch;
+            margin-top: 10vh;
+
+            .ImageDiv {
+                flex: 0 0 50%;
+                padding-right: 1rem;
+                margin-top: 0vh;
+
+                .collage {
+                    margin-left: 10vh;
+                    margin-top: 1rem;
+                    width: 60%;
+                }
+            }
+
+            .introCard {
+                margin-right: 10vh;
+                margin-top: 1rem;
+                flex: 0 0 50%;
+
+                .aboutParagraph {
+                    .home-title {
+                        font-size: 2.2vw;
+                    }
+
+                    .home-text {
+                        font-size: 2vh;
+                    }
+                }
+            }
+        }
+    }
+
+}

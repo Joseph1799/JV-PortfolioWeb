@@ -1,0 +1,293 @@
+@charset "UTF-8";
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: ■rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+}
+
+.about {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #0e0e0e;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top 30%;
+}
+.about .BackgroundDiv {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+.about .BackgroundDiv .background {
+  margin-top: 5vh;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top 30%;
+  width: 100%;
+}
+.about .aboutHolder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  margin-top: 50px;
+}
+.about .aboutHolder .ImageDiv {
+  flex: 0 0 50%;
+  padding-right: 1rem;
+  margin-top: 8.5vh;
+}
+.about .aboutHolder .ImageDiv .collage {
+  margin-left: 10vh;
+  width: 55%;
+  border-radius: 10px;
+  border: 5px solid #303030;
+}
+.about .aboutHolder .introCard {
+  margin-right: 10vh;
+  margin-top: 8rem;
+  flex: 0 0 35%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: rgba(31, 34, 37, 0.7);
+  overflow: hidden;
+}
+.about .aboutHolder .introCard .aboutParagraph {
+  font-size: 1rem;
+  color: var(--textColor);
+}
+.about .aboutHolder .introCard .aboutParagraph .home-title {
+  font-size: 2vw;
+  margin-top: 2%;
+  color: rgb(255, 255, 255);
+}
+.about .aboutHolder .introCard .aboutParagraph .home-title .outlined-text {
+  -webkit-text-stroke: 0.1vw rgb(255, 255, 255);
+  color: transparent;
+}
+.about .aboutHolder .introCard .aboutParagraph .home-text {
+  line-height: 1.5;
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 500px) {
+  .about .aboutHolder {
+    display: block;
+  }
+  .about .aboutHolder .ImageDiv {
+    flex: 0 0 0;
+    padding-right: 0rem;
+    margin-top: 5vh;
+  }
+  .about .aboutHolder .ImageDiv .collage {
+    margin-left: 5vh;
+    margin-top: 1rem;
+    width: 80%;
+  }
+  .about .aboutHolder .introCard {
+    margin-right: 0vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex: 0 0 0;
+  }
+  .about .aboutHolder .introCard .aboutParagraph {
+    font-size: 1rem;
+  }
+  .about .aboutHolder .introCard .aboutParagraph .home-title {
+    font-size: 6vw;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 650px) {
+  .about .aboutHolder {
+    display: block;
+  }
+  .about .aboutHolder .ImageDiv {
+    flex: 0 0 0;
+    padding-right: 0rem;
+    margin-top: 5vh;
+  }
+  .about .aboutHolder .ImageDiv .collage {
+    margin-left: 5vh;
+    margin-top: 1rem;
+    width: 82%;
+  }
+  .about .aboutHolder .introCard {
+    margin-right: 0vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex: 0 0 0;
+  }
+  .about .aboutHolder .introCard .aboutParagraph {
+    font-size: 1rem;
+  }
+  .about .aboutHolder .introCard .aboutParagraph .home-title {
+    font-size: 6vw;
+  }
+}
+@media screen and (min-width: 651px) and (max-width: 810px) {
+  .about .aboutHolder {
+    display: block;
+  }
+  .about .aboutHolder .ImageDiv {
+    flex: 0 0 0;
+    padding-right: 0rem;
+    margin-top: 5vh;
+  }
+  .about .aboutHolder .ImageDiv .collage {
+    margin-left: 5vh;
+    margin-top: 1rem;
+    width: 85%;
+  }
+  .about .aboutHolder .introCard {
+    margin-right: 0vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex: 0 0 0;
+  }
+  .about .aboutHolder .introCard .aboutParagraph {
+    font-size: 1rem;
+  }
+  .about .aboutHolder .introCard .aboutParagraph .home-title {
+    font-size: 6vw;
+  }
+  .about .aboutHolder .introCard .aboutParagraph .home-text {
+    font-size: 2vh;
+  }
+}
+@media screen and (min-width: 811px) and (max-width: 1000px) {
+  .about .aboutHolder {
+    display: block;
+  }
+  .about .aboutHolder .ImageDiv {
+    flex: 0 0 0;
+    padding-right: 0rem;
+    margin-top: 5vh;
+  }
+  .about .aboutHolder .ImageDiv .collage {
+    margin-left: 6.5vh;
+    margin-top: 1rem;
+    width: 85%;
+  }
+  .about .aboutHolder .introCard {
+    margin-right: 0vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex: 0 0 0;
+  }
+  .about .aboutHolder .introCard .aboutParagraph {
+    font-size: 1rem;
+  }
+  .about .aboutHolder .introCard .aboutParagraph .home-title {
+    font-size: 6vw;
+  }
+  .about .aboutHolder .introCard .aboutParagraph .home-text {
+    font-size: 2vh;
+  }
+}
+@media screen and (min-width: 1001px) and (max-width: 1450px) {
+  .about .aboutHolder {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    margin-top: 18vh;
+  }
+  .about .aboutHolder .ImageDiv {
+    flex: 0 0 50%;
+    padding-right: 1rem;
+    margin-top: 0vh;
+  }
+  .about .aboutHolder .ImageDiv .collage {
+    margin-left: 10vh;
+    margin-top: 1rem;
+    width: 80%;
+  }
+  .about .aboutHolder .introCard {
+    margin-right: 10vh;
+    margin-top: 1rem;
+    flex: 0 0 50%;
+  }
+  .about .aboutHolder .introCard .aboutParagraph .home-title {
+    font-size: 2.5vw;
+  }
+  .about .aboutHolder .introCard .aboutParagraph .home-text {
+    font-size: 2.5vh;
+  }
+}
+@media screen and (min-width: 1451px) and (max-width: 1800px) {
+  .about .aboutHolder {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    margin-top: 10vh;
+  }
+  .about .aboutHolder .ImageDiv {
+    flex: 0 0 50%;
+    padding-right: 1rem;
+    margin-top: 0vh;
+  }
+  .about .aboutHolder .ImageDiv .collage {
+    margin-left: 10vh;
+    margin-top: 1rem;
+    width: 80%;
+  }
+  .about .aboutHolder .introCard {
+    margin-right: 10vh;
+    margin-top: 0rem;
+    flex: 0 0 50%;
+  }
+  .about .aboutHolder .introCard .aboutParagraph .home-title {
+    font-size: 2.5vw;
+  }
+  .about .aboutHolder .introCard .aboutParagraph .home-text {
+    font-size: 2vh;
+  }
+}
+@media screen and (min-width: 1801px) and (max-width: 2010px) {
+  .about .aboutHolder {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    margin-top: 10vh;
+  }
+  .about .aboutHolder .ImageDiv {
+    flex: 0 0 50%;
+    padding-right: 1rem;
+    margin-top: 0vh;
+  }
+  .about .aboutHolder .ImageDiv .collage {
+    margin-left: 10vh;
+    margin-top: 1rem;
+    width: 60%;
+  }
+  .about .aboutHolder .introCard {
+    margin-right: 10vh;
+    margin-top: 1rem;
+    flex: 0 0 50%;
+  }
+  .about .aboutHolder .introCard .aboutParagraph .home-title {
+    font-size: 2.2vw;
+  }
+  .about .aboutHolder .introCard .aboutParagraph .home-text {
+    font-size: 2vh;
+  }
+}/*# sourceMappingURL=about.css.map */

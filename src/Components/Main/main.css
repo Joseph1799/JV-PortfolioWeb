@@ -1,0 +1,203 @@
+@charset "UTF-8";
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: ■rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+}
+
+.main {
+  width: 100%;
+  position: relative;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #040707;
+}
+.main .ImageDiv {
+  height: 97vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+.main .ImageDiv .background {
+  margin-top: 5vh;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top 30%;
+  width: 100%;
+}
+.main .introCard {
+  position: absolute;
+  top: 23vh;
+  right: 5vh;
+  padding: 1rem 1rem 2rem;
+  gap: 2rem;
+  border-radius: 1rem;
+  background: rgba(27, 31, 35, 0.7);
+  width: 50%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.main .introCard .introParagraph {
+  font-size: 13px;
+  color: var(--textColor);
+}
+.main .introCard .introParagraph .home-title {
+  font-size: 3vw;
+  margin-top: 2%;
+  color: rgb(255, 255, 255);
+}
+.main .introCard .introParagraph .home-title .outlined-text {
+  -webkit-text-stroke: 0.1vw rgb(255, 255, 255);
+  color: transparent;
+}
+.main .introCard .introParagraph .home-text {
+  line-height: 1.5;
+  font-size: 18px;
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+}
+.main .introCard .introParagraph .button-59 {
+  margin-top: 15px;
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -0.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.main .introCard .introParagraph .button-59:focus {
+  color: #171e29;
+}
+.main .introCard .introParagraph .button-59:hover {
+  border-color: #13637e;
+  fill: #13637e;
+}
+.main .introCard .introParagraph .button-59:active {
+  border-color: #13637e;
+  color: #13637e;
+  fill: #13637e;
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    margin-top: 2vh;
+  }
+  .main .ImageDiv {
+    height: 53.7rem;
+  }
+  .main .ImageDiv .background {
+    width: 150%;
+  }
+  .main .introCard {
+    top: 38vh;
+    width: 80%;
+  }
+  .main .introCard .introParagraph {
+    font-size: 13px;
+    color: var(--textColor);
+  }
+  .main .introCard .introParagraph .home-title {
+    font-size: 6vw;
+  }
+  .main .introCard .introParagraph .home-text {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 650px) {
+  .main {
+    margin-top: 2vh;
+  }
+  .main .ImageDiv {
+    height: 80rem;
+  }
+  .main .ImageDiv .background {
+    width: 150%;
+  }
+  .main .introCard {
+    top: 38vh;
+    width: 87%;
+  }
+  .main .introCard .introParagraph .home-title {
+    font-size: 5vw;
+  }
+}
+@media screen and (min-width: 651px) and (max-width: 810px) {
+  .main {
+    margin-top: 0vh;
+  }
+  .main .ImageDiv {
+    height: 67.3rem;
+  }
+  .main .ImageDiv .background {
+    width: 150%;
+  }
+  .main .introCard {
+    top: 47vh;
+    width: 90%;
+  }
+  .main .introCard .introParagraph {
+    font-size: 13px;
+    color: var(--textColor);
+  }
+  .main .introCard .introParagraph .home-title {
+    font-size: 4.5vw;
+  }
+}
+@media screen and (min-width: 811px) and (max-width: 1000px) {
+  .main {
+    margin-top: 0vh;
+  }
+  .main .ImageDiv {
+    height: 72.5rem;
+  }
+  .main .ImageDiv .background {
+    width: 150%;
+  }
+  .main .introCard {
+    top: 45vh;
+    width: 86%;
+  }
+  .main .introCard .introParagraph {
+    font-size: 13px;
+  }
+  .main .introCard .introParagraph .home-title {
+    font-size: 5vw;
+  }
+  .main .introCard .introParagraph .home-text {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=main.css.map */
