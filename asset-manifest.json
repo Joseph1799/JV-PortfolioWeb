@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JV-PortfolioWeb/static/css/main.2b225b0b.css",
-    "main.js": "/JV-PortfolioWeb/static/js/main.af8ff5ac.js",
+    "main.css": "/JV-PortfolioWeb/static/css/main.d8050820.css",
+    "main.js": "/JV-PortfolioWeb/static/js/main.a08c2427.js",
     "static/media/CollageAbout.png": "/JV-PortfolioWeb/static/media/CollageAbout.a5462187c831366e5f4e.png",
     "static/media/BackgroundTall.png": "/JV-PortfolioWeb/static/media/BackgroundTall.5d48c98248a7f51ba562.png",
     "static/media/agseguros.png": "/JV-PortfolioWeb/static/media/agseguros.f99df33c47a65719bac8.png",
@@ -10,12 +10,13 @@
     "static/media/cosecha.png": "/JV-PortfolioWeb/static/media/cosecha.49ee64769add4119fdb2.png",
     "static/media/logo.png": "/JV-PortfolioWeb/static/media/logo.5d2a9196aec65ffa969c.png",
     "static/media/CodeBg.png": "/JV-PortfolioWeb/static/media/CodeBg.c5d32ea74f2da5f92af2.png",
+    "static/media/MailBg.png": "/JV-PortfolioWeb/static/media/MailBg.071be6131ab0009f4714.png",
     "index.html": "/JV-PortfolioWeb/index.html",
-    "main.2b225b0b.css.map": "/JV-PortfolioWeb/static/css/main.2b225b0b.css.map",
-    "main.af8ff5ac.js.map": "/JV-PortfolioWeb/static/js/main.af8ff5ac.js.map"
+    "main.d8050820.css.map": "/JV-PortfolioWeb/static/css/main.d8050820.css.map",
+    "main.a08c2427.js.map": "/JV-PortfolioWeb/static/js/main.a08c2427.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b225b0b.css",
-    "static/js/main.af8ff5ac.js"
+    "static/css/main.d8050820.css",
+    "static/js/main.a08c2427.js"
   ]
 }
