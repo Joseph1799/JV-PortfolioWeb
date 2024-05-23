@@ -7,7 +7,7 @@ import ContactMe from "./Pages/ContactMe";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/JV-PortfolioWeb">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-me" element={<AboutMe />} />

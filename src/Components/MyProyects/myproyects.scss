@@ -1,0 +1,341 @@
+.Proyects-container {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top 30%;
+    padding-bottom: 6vh;
+
+    .page-title {
+
+        h1 {
+            height: 100%;
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 5vh;
+            padding-top: 15vh;
+            color: white;
+        }
+    }
+
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            flex: 1;
+            align-items: center;
+
+            .left-col,
+            .right-col {
+                width: 100%;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .card {
+                    border: 3px solid rgba(0, 96, 128, 0.8);
+                    box-shadow: 0 0 10px rgba(0, 96, 128, 0.5);
+                    transition: 0.3s;
+                    border-radius: 5px;
+                    background-color: rgb(239, 239, 239);
+                    width: 70vh;
+                    color: black;
+                    margin-bottom: 10vh;
+                    margin-top: 10vh;
+
+                    &:hover {
+                        box-shadow: 0 0 5px 6px #006080;
+                        cursor: pointer;
+                    }
+
+                    .proyect-img {
+                        width: 100%;
+                    }
+
+                    .container {
+
+                        h4 {
+                            font-size: 22px;
+                        }
+
+                        .tech-list {
+                            margin: 0 auto;
+
+                            li {
+                                display: inline-block;
+                            }
+                        }
+
+                        .icon {
+                            margin-top: 1.2vh;
+                            margin-bottom: 3px;
+                            margin-right: 10px;
+                            width: 4.5vh;
+                            transition: .2s;
+                            padding-bottom: 2vh;
+
+                            &:hover {
+                                width: 7vh;
+                                padding-bottom: 0vh;
+                                margin-right: 15px;
+                                margin-left: 5px;
+                                cursor: help;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// MEDIA QUERIES ============================================
+
+@media screen and (max-width: 580px) {
+    .Proyects-container {
+        background-size: cover;
+
+        .page-title {
+            h1 {
+                font-size: 2rem;
+                margin-bottom: 0vh;
+                padding-top: 15vh;
+                color: white;
+            }
+        }
+
+
+        .row {
+            .column {
+                flex-direction: row;
+
+                .left-col,
+                .right-col {
+                    .card {
+                        width: 42vh;
+                        margin-bottom: 0vh;
+                        margin-top: 7vh;
+
+                        .container {
+
+                            h4 {
+                                font-size: 20px;
+                            }
+
+                            .icon {
+                                margin-top: 1.2vh;
+                                margin-bottom: 0px;
+                                margin-right: 10px;
+                                width: 3vh;
+                                padding-bottom: 2vh;
+
+                                &:hover {
+                                    width: 4vh;
+                                    padding-bottom: 0vh;
+                                    margin-right: 10px;
+                                    margin-left: 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 581px) and (max-width: 700px) {
+    .Proyects-container {
+        background-size: cover;
+
+        .page-title {
+            h1 {
+                font-size: 2.5rem;
+                margin-bottom: 0vh;
+                padding-top: 15vh;
+                color: white;
+            }
+        }
+
+
+        .row {
+            .column {
+                flex-direction: row;
+
+                .left-col,
+                .right-col {
+                    .card {
+                        width: 50vh;
+                        margin-bottom: 0vh;
+                        margin-top: 7vh;
+
+                        .container {
+
+                            h4 {
+                                font-size: 24px;
+                            }
+
+                            .icon {
+                                margin-top: 1.2vh;
+                                margin-bottom: 0px;
+                                margin-right: 10px;
+                                width: 4vh;
+                                padding-bottom: 2vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 850px) {
+    .Proyects-container {
+        background-size: cover;
+
+        .page-title {
+            h1 {
+                font-size: 2.5rem;
+                margin-bottom: 0vh;
+                padding-top: 15vh;
+                color: white;
+            }
+        }
+
+
+        .row {
+            .column {
+                flex-direction: row;
+
+                .left-col,
+                .right-col {
+                    .card {
+                        width: 64vh;
+                        margin-bottom: 0vh;
+                        margin-top: 7vh;
+
+                        .container {
+
+                            h4 {
+                                font-size: 24px;
+                            }
+
+                            .icon {
+                                margin-top: 1.2vh;
+                                margin-bottom: 0px;
+                                margin-right: 10px;
+                                width: 4vh;
+                                padding-bottom: 2vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 851px) and (max-width: 1000px) {
+    .Proyects-container {
+        background-size: cover;
+
+        .page-title {
+            h1 {
+                font-size: 2.5rem;
+                margin-bottom: 0vh;
+                padding-top: 15vh;
+                color: white;
+            }
+        }
+
+
+        .row {
+            .column {
+                flex-direction: row;
+
+                .left-col,
+                .right-col {
+                    .card {
+                        width: 75vh;
+                        margin-bottom: 0vh;
+                        margin-top: 7vh;
+
+                        .container {
+
+                            h4 {
+                                font-size: 24px;
+                            }
+
+                            .icon {
+                                margin-top: 1.2vh;
+                                margin-bottom: 0px;
+                                margin-right: 10px;
+                                width: 4vh;
+                                padding-bottom: 2vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1460px) {
+    .Proyects-container {
+        background-size: cover;
+
+        .page-title {
+            h1 {
+                font-size: 2.5rem;
+                margin-bottom: 5vh;
+                padding-top: 20vh;
+                color: white;
+            }
+        }
+
+
+        .row {
+            .column {
+                flex-direction: row;
+
+                .left-col,
+                .right-col {
+                    .card {
+                        width: 85vh;
+                        margin-bottom: 0vh;
+                        margin-top: 7vh;
+
+                        .container {
+
+                            h4 {
+                                font-size: 22px;
+                            }
+
+                            .icon {
+                                margin-top: 1.2vh;
+                                margin-bottom: 0px;
+                                margin-right: 10px;
+                                width: 4vh;
+                                padding-bottom: 2vh;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
