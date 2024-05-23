@@ -38,6 +38,40 @@
   background-position: center top 30%;
   width: 100%;
 }
+.main .left-button {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-57%);
+  background-color: #004da0;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 0px 5px 5px 0px;
+  text-decoration: none;
+  display: flex;
+  /* Usar flexbox */
+  align-items: center;
+  /* Centrar verticalmente los elementos */
+  transition: padding-right 0.5s;
+  transition: transform 0.5s;
+}
+.main .left-button .icon {
+  margin-left: 12px;
+  font-size: 1.5rem;
+  transition: 0.5s;
+}
+.main .left-button span {
+  display: inline-block;
+  font-weight: 600;
+}
+.main .left-button:hover {
+  background-color: #004fa2;
+  transform: translateX(1%);
+}
+.main .left-button:hover .icon {
+  margin-left: 0px;
+}
 .main .introCard {
   position: absolute;
   top: 23vh;
@@ -98,23 +132,34 @@
        user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  transition: 0.5s;
 }
 .main .introCard .introParagraph .button-59:focus {
   color: #171e29;
 }
 .main .introCard .introParagraph .button-59:hover {
-  border-color: #13637e;
-  fill: #13637e;
+  border-color: #ffffff;
+  fill: #ffffff;
 }
 .main .introCard .introParagraph .button-59:active {
-  border-color: #13637e;
-  color: #13637e;
-  fill: #13637e;
+  border-color: #046A9A;
+  color: #046A9A;
+  fill: #046A9A;
 }
 
 @media screen and (max-width: 500px) {
   .main {
     margin-top: 2vh;
+  }
+  .main .left-button {
+    top: 40%;
+  }
+  .main .left-button:hover {
+    background-color: #004fa2;
+    transform: translateX(0%);
+  }
+  .main .left-button:hover .icon {
+    margin-left: 0px;
   }
   .main .ImageDiv {
     height: 53.7rem;
@@ -123,7 +168,7 @@
     width: 150%;
   }
   .main .introCard {
-    top: 38vh;
+    top: 45vh;
     width: 80%;
   }
   .main .introCard .introParagraph {
@@ -141,6 +186,16 @@
   .main {
     margin-top: 2vh;
   }
+  .main .left-button {
+    top: 55%;
+  }
+  .main .left-button:hover {
+    background-color: #004fa2;
+    transform: translateX(0%);
+  }
+  .main .left-button:hover .icon {
+    margin-left: 0px;
+  }
   .main .ImageDiv {
     height: 80rem;
   }
@@ -148,7 +203,7 @@
     width: 150%;
   }
   .main .introCard {
-    top: 38vh;
+    top: 60vh;
     width: 87%;
   }
   .main .introCard .introParagraph .home-title {
@@ -159,6 +214,16 @@
   .main {
     margin-top: 0vh;
   }
+  .main .left-button {
+    top: 43%;
+  }
+  .main .left-button:hover {
+    background-color: #004fa2;
+    transform: translateX(0%);
+  }
+  .main .left-button:hover .icon {
+    margin-left: 0px;
+  }
   .main .ImageDiv {
     height: 67.3rem;
   }
@@ -166,7 +231,7 @@
     width: 150%;
   }
   .main .introCard {
-    top: 47vh;
+    top: 50vh;
     width: 90%;
   }
   .main .introCard .introParagraph {
@@ -181,6 +246,16 @@
   .main {
     margin-top: 0vh;
   }
+  .main .left-button {
+    top: 42%;
+  }
+  .main .left-button:hover {
+    background-color: #004fa2;
+    transform: translateX(0%);
+  }
+  .main .left-button:hover .icon {
+    margin-left: 0px;
+  }
   .main .ImageDiv {
     height: 72.5rem;
   }
@@ -188,7 +263,7 @@
     width: 150%;
   }
   .main .introCard {
-    top: 45vh;
+    top: 50vh;
     width: 86%;
   }
   .main .introCard .introParagraph {

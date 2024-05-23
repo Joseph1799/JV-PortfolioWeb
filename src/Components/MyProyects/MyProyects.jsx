@@ -18,7 +18,7 @@ const MyProyects = () => {
       className="Proyects-container"
     >
       <div className="page-title">
-        <h1>Proyectos Realizados</h1>
+        <h1>My Projects</h1>
       </div>
       <div className="row">
         <div className="column">
@@ -36,7 +36,7 @@ const MyProyects = () => {
               <img src={guanagoimg} alt="" className="proyect-img" />
               <div className="container">
                 <h4>
-                  <b>Tecnologías Utilizadas</b>
+                  <b>Technologies Used</b>
                 </h4>
                 <ul className="tech-list">
                   <li>
@@ -112,7 +112,7 @@ const MyProyects = () => {
               <img src={cosechaimg} alt="" className="proyect-img" />
               <div className="container">
                 <h4>
-                  <b>Tecnologías Utilizadas</b>
+                  <b>Technologies Used</b>
                 </h4>
                 <ul className="tech-list">
                   <li>
@@ -182,7 +182,7 @@ const MyProyects = () => {
               <img src={edufyimg} alt="" className="proyect-img" />
               <div className="container">
                 <h4>
-                  <b>Tecnologías Utilizadas</b>
+                  <b>Technologies Used</b>
                 </h4>
                 <ul className="tech-list">
                   <li>
@@ -244,7 +244,7 @@ const MyProyects = () => {
               <img src={agsegurosimg} alt="" className="proyect-img" />
               <div className="container">
                 <h4>
-                  <b>Tecnologías Utilizadas</b>
+                  <b>Technologies Used</b>
                 </h4>
                 <ul className="tech-list">
                   <li>

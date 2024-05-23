@@ -38,6 +38,47 @@
         }
     }
 
+    .left-button {
+        position: fixed;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        transform: translateX(-57%);
+        background-color: #004da0;
+        color: white;
+        padding: 10px 10px;
+        border-radius: 0px 5px 5px 0px;
+        text-decoration: none;
+        display: flex;
+        /* Usar flexbox */
+        align-items: center;
+        /* Centrar verticalmente los elementos */
+        transition: padding-right .5s;
+        transition: transform .5s;
+
+        .icon {
+            margin-left: 12px;
+            font-size: 1.5rem;
+            transition: .5s;
+        }
+
+        span {
+            display: inline-block;
+            font-weight: 600;
+        }
+
+        &:hover {
+            background-color: #004fa2;
+            transform: translateX(1%);
+
+            .icon {
+                margin-left: 0px;
+            }
+
+        }
+    }
+
+
     .introCard {
         position: absolute;
         top: 23vh;
@@ -100,22 +141,24 @@
                 user-select: none;
                 -webkit-user-select: none;
                 touch-action: manipulation;
+                transition: 0.5s;
+
+                &:focus {
+                    color: #171e29;
+                }
+
+                &:hover {
+                    border-color: #ffffff;
+                    fill: #ffffff;
+                }
+
+                &:active {
+                    border-color: #046A9A;
+                    color: #046A9A;
+                    fill: #046A9A;
+                }
             }
 
-            .button-59:focus {
-                color: #171e29;
-            }
-
-            .button-59:hover {
-                border-color: #13637e;
-                fill: #13637e;
-            }
-
-            .button-59:active {
-                border-color: #13637e;
-                color: #13637e;
-                fill: #13637e;
-            }
         }
 
     }
@@ -128,6 +171,20 @@
     .main {
         margin-top: 2vh;
 
+        .left-button {
+            top: 40%;
+
+            &:hover {
+                background-color: #004fa2;
+                transform: translateX(0%);
+
+                .icon {
+                    margin-left: 0px;
+                }
+
+            }
+        }
+
         .ImageDiv {
             height: 53.7rem;
 
@@ -137,7 +194,7 @@
         }
 
         .introCard {
-            top: 38vh;
+            top: 45vh;
             width: 80%;
 
             .introParagraph {
@@ -160,6 +217,20 @@
     .main {
         margin-top: 2vh;
 
+        .left-button {
+            top: 55%;
+
+            &:hover {
+                background-color: #004fa2;
+                transform: translateX(0%);
+
+                .icon {
+                    margin-left: 0px;
+                }
+
+            }
+        }
+
         .ImageDiv {
             height: 80rem;
 
@@ -169,7 +240,7 @@
         }
 
         .introCard {
-            top: 38vh;
+            top: 60vh;
             width: 87%;
 
             .introParagraph {
@@ -185,6 +256,20 @@
     .main {
         margin-top: 0vh;
 
+        .left-button {
+            top: 43%;
+
+            &:hover {
+                background-color: #004fa2;
+                transform: translateX(0%);
+
+                .icon {
+                    margin-left: 0px;
+                }
+
+            }
+        }
+
         .ImageDiv {
             height: 67.3rem;
 
@@ -194,7 +279,7 @@
         }
 
         .introCard {
-            top: 47vh;
+            top: 50vh;
             width: 90%;
 
             .introParagraph {
@@ -213,6 +298,20 @@
     .main {
         margin-top: 0vh;
 
+        .left-button {
+            top: 42%;
+
+            &:hover {
+                background-color: #004fa2;
+                transform: translateX(0%);
+
+                .icon {
+                    margin-left: 0px;
+                }
+
+            }
+        }
+
         .ImageDiv {
             height: 72.5rem;
 
@@ -222,7 +321,7 @@
         }
 
         .introCard {
-            top: 45vh;
+            top: 50vh;
             width: 86%;
 
             .introParagraph {

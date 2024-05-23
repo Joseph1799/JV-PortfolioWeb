@@ -4,6 +4,7 @@ import background from "../../Assets/Images/BackgroundTall.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
+import { FaLinkedin } from "react-icons/fa";
 
 const Main = () => {
   useEffect(() => {
@@ -15,7 +16,15 @@ const Main = () => {
       <div className="ImageDiv">
         <img src={background} alt="Background" className="background" />
       </div>
-
+      <a
+        href="https://www.linkedin.com/in/joseph-vargas99/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="link-button left-button"
+      >
+        <span>Linked</span>
+        <FaLinkedin className="icon" />
+      </a>
       <div data-aos="fade-up" className="introCard flex">
         <div className="introParagraph">
           <h1 className="home-title">
