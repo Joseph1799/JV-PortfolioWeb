@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/JV-PortfolioWeb/static/css/main.0e4a4e30.css",
-    "main.js": "/JV-PortfolioWeb/static/js/main.3d16db81.js",
+    "main.css": "/JV-PortfolioWeb/static/css/main.4822bcea.css",
+    "main.js": "/JV-PortfolioWeb/static/js/main.c7bb7119.js",
     "static/media/CollageAbout.png": "/JV-PortfolioWeb/static/media/CollageAbout.de1004e9f831435091c9.png",
+    "static/media/guanago.png": "/JV-PortfolioWeb/static/media/guanago.756172244dea045ec804.png",
     "static/media/BackgroundTall.png": "/JV-PortfolioWeb/static/media/BackgroundTall.3822c568c3fa6b2caac9.png",
-    "static/media/agseguros.png": "/JV-PortfolioWeb/static/media/agseguros.76f78560b7f140244fc5.png",
-    "static/media/edufy.png": "/JV-PortfolioWeb/static/media/edufy.37935936ceca037fe594.png",
-    "static/media/guanago.png": "/JV-PortfolioWeb/static/media/guanago.b643440834c0e1e7131b.png",
+    "static/media/edufy.png": "/JV-PortfolioWeb/static/media/edufy.b12f5ef8d0bf105f1671.png",
+    "static/media/agseguros.png": "/JV-PortfolioWeb/static/media/agseguros.2b1d82656c3f5c28c507.png",
     "static/media/cosecha.png": "/JV-PortfolioWeb/static/media/cosecha.9ff75ccdc0d8182b0c40.png",
     "static/media/logo.png": "/JV-PortfolioWeb/static/media/logo.8962ccd7c38ba5b0916b.png",
     "index.html": "/JV-PortfolioWeb/index.html",
-    "main.0e4a4e30.css.map": "/JV-PortfolioWeb/static/css/main.0e4a4e30.css.map",
-    "main.3d16db81.js.map": "/JV-PortfolioWeb/static/js/main.3d16db81.js.map"
+    "main.4822bcea.css.map": "/JV-PortfolioWeb/static/css/main.4822bcea.css.map",
+    "main.c7bb7119.js.map": "/JV-PortfolioWeb/static/js/main.c7bb7119.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e4a4e30.css",
-    "static/js/main.3d16db81.js"
+    "static/css/main.4822bcea.css",
+    "static/js/main.c7bb7119.js"
   ]
 }
