@@ -54,7 +54,7 @@ const Contact = () => {
         <span>Linked</span>
         <FaLinkedin className="icon" />
       </a>
-      <div data-aos="fade-up" className="contact-card">
+      <div data-aos="fade-in" className="contact-card">
         <div className="contact-form">
           <h2>Contact</h2>
           <form onSubmit={handleSubmit}>
