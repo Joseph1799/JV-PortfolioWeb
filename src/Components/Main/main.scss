@@ -100,28 +100,44 @@
             .home-title {
                 font-size: 3vw;
                 margin-top: 2%;
-                color: rgb(255, 255, 255);
+                color: #ffffff;
+
+                @keyframes glow {
+                    0% {
+                        text-shadow: 0 0 0px #177FA1, 0 0 0px #177FA1, 0 0 0px #177FA1, 0 0 0px #177FA1, 0 0 0px #177FA1;
+                    }
+
+                    100% {
+                        text-shadow: 0 0 8px #177FA1, 0 0 1px #177FA1, 0 0 1px #177FA1, 0 0 1px #177FA1, 0 0 1px #177FA1;
+                    }
+                }
 
                 .outlined-text {
-                    -webkit-text-stroke: 0.1vw rgb(255, 255, 255);
+                    -webkit-text-stroke: 0.1vw #177FA1;
                     color: transparent;
+                    position: relative;
+                    animation: glow 1.5s infinite alternate;
                 }
+
+
             }
 
             .home-text {
                 line-height: 1.5;
                 font-size: 18px;
                 margin-top: 15px;
-                color: rgb(255, 255, 255);
+                color: #ffffff;
             }
 
             .button-59 {
                 margin-top: 15px;
                 align-items: center;
-                background-color: #fff;
+                background: linear-gradient(to right, #ffffff 50%, #157392 50%);
+                background-size: 200% 100%;
                 border: 2px solid #000;
+                border-radius: 5px;
                 box-sizing: border-box;
-                color: #000;
+                color: #000000;
                 cursor: pointer;
                 display: inline-flex;
                 fill: #000;
@@ -137,27 +153,26 @@
                 padding: 0 17px;
                 text-align: center;
                 text-decoration: none;
-                transition: all .3s;
+                transition: background-position 0.5s, transform 0.3s, color 0.5s;
                 user-select: none;
                 -webkit-user-select: none;
                 touch-action: manipulation;
-                transition: 0.5s;
 
                 &:focus {
                     color: #171e29;
                 }
 
                 &:hover {
-                    border-color: #ffffff;
-                    fill: #ffffff;
+                    background-position: -100% 0;
+                    color: #ffffff;
+                    transform: scale(1.04);
                 }
 
                 &:active {
-                    border-color: #046A9A;
-                    color: #046A9A;
                     fill: #046A9A;
                 }
             }
+
 
         }
 

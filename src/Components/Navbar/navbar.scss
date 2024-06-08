@@ -14,7 +14,8 @@ section {
         padding-left: 2%;
         padding-right: 2%;
         background-color: #1B1F23;
-        border-bottom: #666767 0.05px solid;
+        border-bottom: #177FA1 5px solid;
+        box-shadow: 0 1px 15px rgb(33, 146, 199);
         z-index: 1000;
 
         .container {
@@ -50,7 +51,7 @@ section {
                             flex-direction: column;
                             align-items: center;
                             text-decoration: none;
-                            color: #cbcdd0;
+                            color: #ffffff;
                             font-weight: 500;
                             font-size: 17px;
                             position: relative;
