@@ -1,27 +1,9 @@
 import React, { useEffect } from "react";
 import "./about.css";
-import Background from "../../Assets/Images/CodeBg.png";
-import RVCCimg from "../../Assets/Images/RVCC.png";
-import ULACITimg from "../../Assets/Images/ULACIT.png";
-import CatalinasImg from "../../Assets/Images/Catalinas.jpg";
-import DukeFarmsImg from "../../Assets/Images/DukeFarms.jpeg";
-import DukeFarms2Img from "../../Assets/Images/DukeFarms2.jpg";
-import DukeFarms3Img from "../../Assets/Images/DukeFarms3.jpg";
-import NapoliImg from "../../Assets/Images/Napoli.jpeg";
-import NewJerseyImg from "../../Assets/Images/NewJersey.jpeg";
-import NewJersey2Img from "../../Assets/Images/NewJersey2.jpg";
-import NewJersey3Img from "../../Assets/Images/NewJersey3.jpeg";
-import NewYorkImg from "../../Assets/Images/NewYork.jpg";
-import NewYork2Img from "../../Assets/Images/NewYork2.jpg";
-import NewYork3Img from "../../Assets/Images/NewYork3.jpeg";
-import NewYork4Img from "../../Assets/Images/NewYork4.jpg";
-import PlaneImg from "../../Assets/Images/Plane.jpg";
-import UlacitppImg from "../../Assets/Images/UlacitPP.jpeg";
+import background from "../../Assets/Images/CodeBg.png";
+import collage from "../../Assets/Images/CollageAbout.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
-import { Image } from "@nextui-org/image";
-import { Button } from "@nextui-org/react";
 
 const About = () => {
   useEffect(() => {
@@ -29,33 +11,58 @@ const About = () => {
   }, []);
 
   return (
-    <div
-      className="About-container"
-      style={{ backgroundImage: `url(${Background})` }}
-      loading="lazy"
+    <section
+      className="about"
+      style={{ backgroundImage: `url(${background})` }}
     >
-      <div className="about-title">
-        <h1>About Me</h1>
-      </div>
-      <div className="row">
-        <div className="column">
-          <div className="left-col"></div>
+      <div className="aboutHolder flex">
+        <div className="ImageDiv">
+          <img src={collage} alt="Image" className="collage" />
         </div>
-        <div className="column">
-          <div className="right-col">
-            <div className="images-div">
-              <Image
-                isBlurred
-                width={240}
-                src="https://nextui-docs-v2.vercel.app/images/album-cover.png"
-                alt="NextUI Album Cover"
-                className="m-5"
-              />
-            </div>
+
+        <div data-aos="fade-up" className="introCard">
+          <div className="aboutParagraph">
+            <h1 className="home-title">
+              Who is Joseph <span className="outlined-text">Vargas?</span>
+            </h1>
+            <p className="home-text">
+              As a passionate computer science student at ULACIT, I'm on a
+              journey of continuous learning and growth. I've specialized in
+              Java, Spring Boot, and SQL, areas where I've invested time and
+              effort to reach an advanced level. But my curiosity and thirst for
+              knowledge don't stop there; I also master a variety of languages
+              and tools, from Unix and Git to C#, Python, and Kotlin. This
+              versatility allows me to approach challenges from different angles
+              and adapt quickly to new technologies and environments.
+              <br />
+              <br />
+              Furthermore, my expertise extends beyond application development,
+              encompassing cloud computing through Amazon Web Services (AWS) and
+              web development technologies like HTML, CSS, and JavaScript. This
+              breadth of knowledge enables me to tackle projects
+              comprehensively, from conceptualization to implementation and
+              delivery.
+              <br />
+              <br />
+              What motivates me the most is applying my skills and knowledge to
+              real-world challenges. Even though I'm still in a training period,
+              I actively seek opportunities to put into practice what I've
+              learned and contribute meaningfully to interesting projects. I
+              firmly believe in the power of technology to make a positive
+              impact on society, and I'm excited to explore new opportunities
+              that allow me to do just that.
+              <br />
+              <br />
+              In summary, my approach to computer science goes beyond acquiring
+              technical skills; it's about using technology as a tool to
+              innovate, create, and improve the world around us. I'm committed
+              to continuing to grow as a professional and making the most of
+              every opportunity that arises in this exciting field.
+            </p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
