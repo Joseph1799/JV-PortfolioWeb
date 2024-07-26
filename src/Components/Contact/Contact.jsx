@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import mailbg from "../../Assets/Images/MailBg.png";
+import mailbg from "../../Assets/Images/CodeBg.png";
 import { onInsert } from "./js/contact";
 import "./contact.css";
 import Swal from "sweetalert2";

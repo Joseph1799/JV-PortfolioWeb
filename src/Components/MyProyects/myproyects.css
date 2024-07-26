@@ -1,20 +1,31 @@
 .Proyects-container {
+  margin-top: 5vh;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
   background-color: black;
   width: 100%;
-  height: 100%;
+  background-size: cover;
   position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
+  height: 135vh;
+  background-repeat: repeat;
   background-position: center top 30%;
-  padding-bottom: 0vh;
 }
 .Proyects-container .page-title h1 {
-  height: 100%;
-  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 3rem;
   margin-bottom: 5vh;
-  padding-top: 15vh;
-  color: white;
+  padding-top: 10vh;
+  color: rgb(255, 255, 255);
+}
+.Proyects-container .page-title h1:before, .Proyects-container .page-title h1:after {
+  content: "";
+  width: 50px;
+  height: 4px;
+  background-color: #177FA1;
+  margin: 0 10px;
 }
 .Proyects-container .row {
   display: flex;
@@ -72,14 +83,39 @@
   margin-left: 0px;
 }
 
-@media screen and (max-width: 431px) {
+@media screen and (max-width: 389px) {
   .Proyects-container {
-    background-size: contain;
+    height: 237vh;
   }
   .Proyects-container .page-title h1 {
     font-size: 2rem;
     margin-bottom: 5vh;
     top: 15vh;
+    color: white;
+    padding-top: 10vh;
+  }
+  .Proyects-container .row .column {
+    flex-direction: row;
+  }
+  .Proyects-container .row .column .left-col .proyect-card,
+  .Proyects-container .row .column .right-col .proyect-card {
+    top: 0vh;
+    margin-bottom: 5vh;
+    width: 35vh;
+  }
+  .Proyects-container .row .column .left-col .proyect-card .tech-list li .icon,
+  .Proyects-container .row .column .right-col .proyect-card .tech-list li .icon {
+    width: 3vh;
+  }
+}
+@media screen and (min-width: 390px) and (max-width: 431px) {
+  .Proyects-container {
+    height: 200vh;
+  }
+  .Proyects-container .page-title h1 {
+    font-size: 2rem;
+    margin-bottom: 5vh;
+    padding-top: 10vh;
     color: white;
   }
   .Proyects-container .row .column {
@@ -98,7 +134,7 @@
 }
 @media screen and (min-width: 432px) and (max-width: 560px) {
   .Proyects-container {
-    background-size: cover;
+    height: 200vh;
   }
   .Proyects-container .page-title h1 {
     font-size: 2rem;
@@ -122,9 +158,10 @@
 }
 @media screen and (min-width: 561px) and (max-width: 800px) {
   .Proyects-container {
-    background-size: cover;
+    height: 100%;
   }
   .Proyects-container .page-title h1 {
+    padding-top: 10vh;
     font-size: 2.5rem;
     margin-bottom: 5vh;
     top: 15vh;
@@ -146,7 +183,7 @@
 }
 @media screen and (min-width: 801px) and (max-width: 1000px) {
   .Proyects-container {
-    background-size: cover;
+    height: 210vh;
   }
   .Proyects-container .page-title h1 {
     font-size: 3rem;
@@ -170,7 +207,7 @@
 }
 @media screen and (min-width: 1001px) and (max-width: 1463px) {
   .Proyects-container {
-    background-size: cover;
+    height: 100%;
   }
   .Proyects-container .page-title h1 {
     font-size: 2.5rem;

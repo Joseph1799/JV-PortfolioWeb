@@ -1,11 +1,11 @@
 .Contact-container {
-  font-family: "Poppins", sans-serif;
+  margin-top: 5vh;
+  font-family: "Roboto";
   display: flex;
   justify-content: center;
   background-color: black;
   width: 100%;
   background-size: cover;
-  background-repeat: no-repeat;
   position: relative;
   height: 100vh;
   background-position: center top 30%;

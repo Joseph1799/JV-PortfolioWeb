@@ -1,26 +1,35 @@
 {
-  "homepage": "https://josephvargas.social/",
+  "homepage": "https://joseph1799.github.io/JV-PortfolioWeb",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "@fontsource/roboto": "^5.0.13",
     "@material-tailwind/react": "^2.1.9",
     "@mui/joy": "^5.0.0-beta.36",
+    "@nextui-org/image": "^2.0.28",
+    "@nextui-org/react": "^2.4.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "firebase": "^10.12.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "next": "^14.2.4",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
     "react-icons": "^5.2.1",
     "react-router": "^6.23.1",
     "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
+    "react-window": "^1.8.10",
     "sweetalert": "^2.1.2",
     "web-vitals": "^2.1.4"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
